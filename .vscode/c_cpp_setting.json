@@ -1,0 +1,11 @@
+{
+  "configurations": [
+    {
+      "name": "Node",
+      "include": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/node_modules/node-addon-api/"
+      ]
+    }
+  ]
+}

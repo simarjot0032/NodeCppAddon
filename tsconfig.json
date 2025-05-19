@@ -1,0 +1,10 @@
+{
+  "include": ["src/**/*", "test/**/*"],
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "target": "ES2024",
+    "module": "commonjs",
+    "sourceMap": true
+  }
+}

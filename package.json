@@ -1,0 +1,38 @@
+{
+  "name": "nodecppaddon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "types": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cmake-js build",
+    "rebuild": "cmake-js rebuild",
+    "clean": "cmake-js clean",
+    "start": "tsc && node dist/index.js"
+  },
+  "binary": {
+    "napi_version": [
+      10
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simarjot0032/NodeCppAddon.git"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "@types/node": "^22.15.19",
+    "typescript": "^5.5.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simarjot0032/NodeCppAddon/issues"
+  },
+  "homepage": "https://github.com/simarjot0032/NodeCppAddon#readme",
+  "dependencies": {
+    "cmake-js": "^7.3.1",
+    "node-addon-api": "^8.3.1"
+  }
+}

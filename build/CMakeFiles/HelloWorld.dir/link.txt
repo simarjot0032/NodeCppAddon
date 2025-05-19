@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -DBUILDING_NODE_EXTENSION -O3 -DNDEBUG -shared -Wl,-soname,HelloWorld.node -o Release/HelloWorld.node CMakeFiles/HelloWorld.dir/addons/Hello.cc.o 

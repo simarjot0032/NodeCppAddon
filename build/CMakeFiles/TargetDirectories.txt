@@ -1,0 +1,3 @@
+/home/simar/NodeCppAddon/build/CMakeFiles/HelloWorld.dir
+/home/simar/NodeCppAddon/build/CMakeFiles/edit_cache.dir
+/home/simar/NodeCppAddon/build/CMakeFiles/rebuild_cache.dir
