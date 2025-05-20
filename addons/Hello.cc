@@ -35,5 +35,4 @@ Napi::Object InitAll(Napi::Env env, Napi::Object exports) {
     exports.Set("Hello", Hello::GetClass(env));
     return exports;
 }
-
 NODE_API_MODULE(addon, InitAll)
